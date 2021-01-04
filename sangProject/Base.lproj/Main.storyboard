@@ -41,16 +41,6 @@
                                     <action selector="Click_moveBtn:" destination="n62-o0-X87" eventType="touchUpInside" id="9lo-hv-Xg2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sro-Kg-NwP">
-                                <rect key="frame" x="165" y="509" width="113" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="page2"/>
-                                <connections>
-                                    <action selector="Click_moveBtn2:" destination="n62-o0-X87" eventType="touchUpInside" id="djp-hE-97f"/>
-                                    <action selector="Click_moveBtn:" destination="n62-o0-X87" eventType="touchUpInside" id="5j2-zi-TRX"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ypB-WM-zic"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -60,30 +50,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="feI-td-PVb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-665.21739130434787" y="-17.410714285714285"/>
-        </scene>
-        <!--Page Two-->
-        <scene sceneID="LdV-TG-FQ8">
-            <objects>
-                <viewController storyboardIdentifier="pageTwo" id="S9r-5X-eZe" customClass="pageTwo" customModule="sangProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fNL-SG-lff">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="page2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yx9-bb-dVC">
-                                <rect key="frame" x="77" y="158" width="288" height="157"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" red="0.2679809628" green="0.41323903420000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="9tv-UI-kto"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9iy-eA-L2Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="51" y="431"/>
         </scene>
         <!--Detail Controller-->
         <scene sceneID="sTc-sM-pkD">
@@ -104,18 +70,16 @@
                         <viewLayoutGuide key="safeArea" id="z10-Dw-UJT"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="VWg-mw-1IY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5OE-Em-8yL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50.724637681159422" y="-265.17857142857144"/>
+            <point key="canvasLocation" x="146" y="-17"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
